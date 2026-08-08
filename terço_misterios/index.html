@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,27 +8,50 @@
 </head>
 <body>
     <header>
-        <h1>Terço </h1>
-        <nav></nav>
+        <h1>Santo Terço </h1>
     </header>
     <main>
-        <h1>Mistérios gozosos</h1>
-        <ul>
-            <li>1º mistério: Anunciação do anjo a Maria; (Lucas 1,26-38)</li>
-            <img src="" alt="" srcset="">
-            <li>2º mistério: Visitação de Maria a Santa Isabel;</li>
+        <div id="explicacao">
+            <h1>Mistérios gozosos</h1>
+        
+            <p >
+                Os mistérios gozosos são o primeiro conjunto de cinco eventos bíblicos da vida de Jesus e Maria, meditados no Rosário católico, focados na alegria da Encarnação e infância de Cristo. Eles são rezados tradicionalmente às segundas-feiras e sábados, convidando à contemplação da humildade e esperança divina.
+            </p>
+        </div>
+        
+        <div class="carrossel">
+            <button class="seta seta-esq" id="btnAnterior">&#10094;</button>
 
-            <li>3º mistério: Nascimento do Menino Deus;</li>
+            <ul class="carrossel-lista" id="listaCarrossel">
+                <li class="carrossel-item">
+                    <p>1º mistério: Anunciação do anjo a Maria; (Lucas 1,26-38)</p>
+                    <img src="imagens/gabriel_e_maria_200.png" alt="anjo Gabriel e santa Maria" >
+                </li>
+                <li class="carrossel-item">
+                    <p>2º mistério: Visitação de Maria a Santa Isabel; (Lucas 1, 39-45)</p>
+                    <img src="imagens/maria_e_isabel_200.png" alt="Maria e santa Isabel">
+                </li>
+                <li class="carrossel-item">
+                    <p>3º mistério: Nascimento do Menino Deus; (Lucas 2, 1-21)</p>
+                    <img src="imagens/nascimento_jesus_200.png" alt="Nascimento de Jesus">
+                </li>
+                <li class="carrossel-item">
+                    <p>4º mistério: Apresentação de Jesus no Templo; (Lucas 2, 22-35)</p>
+                    <img src="imagens/apresentação_templo_200.png" alt="Apresentação de Jesus no templo">
+                </li>
+                <li class="carrossel-item">
+                    <p>5º mistério: Perda e encontro de Jesus. (Lucas 2, 41-52)</p>
+                    <img src="imagens/perda_e_encontro_200.png" alt="Perda e encontro de Jesus">
+                </li>
+            </ul>
 
-            <li>4º mistério: Apresentação de Jesus no Templo;</li>
-
-            <li>5º mistério: Perda e encontro de Jesus.</li>
-
-        </ul>
-        <p>Os mistérios gozosos são o primeiro conjunto de cinco eventos bíblicos da vida de Jesus e Maria, meditados no Rosário católico, focados na alegria da Encarnação e infância de Cristo. Eles são rezados tradicionalmente às segundas-feiras e sábados, convidando à contemplação da humildade e esperança divina.</p>
+            <button class="seta seta-dir" id="btnProximo">&#10095</button>
+        </div>
+        
+        
     </main>
     <footer>
-        
+        <p>Honra e gloria a Deus Todo poderosos!</p>
     </footer>
     <script src="script.js"></script>
 </body>
